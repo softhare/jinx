@@ -1,4 +1,181 @@
+/*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*
 
-BODY {
-  padding: 0px;
+							JINX's STYLE SHEET
+
+*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*	*/
+
+BODY{
+	margin:0;
+	padding:8;
+	text-align:center;
+	color:#999;
+	font-family:arial;
+	font-size:13px;
+	background:#cccccc;
+	background-color:#cccccc;
 }
+
+DIV#whole {
+	color:black;
+	font-family:arial;
+	font-size:13px;
+}
+
+DIV#header {
+	margin:1 2 0 2;
+	padding:1 8 1 8;
+	text-align:left;
+	border:1px outset #cccccc;
+	background:#eeeeee;
+	background-color:#eeeeee;
+	border-radius:3px;
+}
+
+DIV#address {
+	margin:1 2 0 2;
+	padding:1 8 1 8;
+	text-align:left;
+	border:1px outset #cccccc;
+	background:#eeeeee;
+	background-color:#ffffff;
+	font-size:13px;
+	color:#999999;
+	border-radius:3px;
+}
+
+DIV#menu {
+	margin:1 2 0 2;
+	padding:1 8 1 8;
+	text-align:left;
+	border:1px outset #cccccc;
+	background:#eeeeee;
+	background-color:#eeeeee;
+	font-size:12px;
+	color:#999999;
+	border-radius:3px;
+}
+
+DIV#error {
+	margin:1 2 0 2;
+	padding:1 8 1 8;
+	text-align:left;
+	border:1px outset #cccccc;
+	background:#eeeeee;
+	background-color:#eeeeee;
+	font-size:11px;
+	overflow:hidden;
+	color:#999999;
+	border-radius:3px;
+}
+
+DIV#main {
+	margin:1 2 0 2;
+	padding:1 8 1 8;
+	text-align:center;
+	border:1px outset #cccccc;
+	background:#cccccc;
+	background-color:#cccccc;
+	color:#666666;
+	border-radius:3px;
+}
+
+DIV#temp {
+	width:66%;
+	padding:20px;
+	margin:20px;
+	background:white;
+	background-color:white;
+	border:1px solid red;
+	color:red;
+}
+
+DIV#busy {
+	width:66%;
+	padding:20px;
+	margin:20px;
+	background:white;
+	background-color:white;
+	border:1px solid #090;
+	color:#090;
+}
+
+DIV#signature {
+	font-size:11px;
+	color:#999999;
+}
+
+DIV#mask {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+DIV#fpan {
+	position:absolute;
+	top:0px;
+	left:0px;
+}
+
+A:link,A:visited {
+	color:#443322;
+	text-decoration:none;
+}
+
+A:hover,A:active {
+	color:#ff6600;
+	text-decoration:underline;
+}
+
+TABLE {
+	margin:4;
+	padding:1;
+	text-align:center;
+	border:1px outset #aaaaaa;background:#dddddd;
+	background-color:#dddddd;
+	color:#999;
+	font-size:13px;
+	border-radius:3px;
+}
+
+TH {
+	margin:0;
+	padding:1;
+	text-align:center;
+	background:#eeeeee;
+	background-color:#eeeeee;
+	color:#a20;
+	font-size:15px;
+}
+
+TD {
+	margin:0;
+	padding:1;
+	background:#ffffff;
+	background-color:#ffffff;
+	color:#888888;
+	font-size:13px;
+}
+
+FORM {
+	margin:0px;
+	padding:0px;
+}
+
+INPUT {
+	color:#443322;
+	font-family:arial;
+	font-size:13px;
+}
+
+TEXTAREA {
+	color:#443322;
+	font-family:arial;
+	font-size:13px;
+}
+
+BUTTON {
+	color:#443322;
+	font-family:arial;
+	font-size:13px;
+}
+
